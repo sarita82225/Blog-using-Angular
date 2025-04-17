@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "title": "My First Blog",
+      "summary": "This is a summary.",
+      "content": "# Hello\nThis is *markdown* content!"
+    },
+    {
+      "id": 2,
+      "title": "Second Blog",
+      "summary": "Another post.",
+      "content": "## Subtitle\nMore content here."
+    }
+  ]
