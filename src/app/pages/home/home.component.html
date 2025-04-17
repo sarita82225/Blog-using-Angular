@@ -1,0 +1,7 @@
+<div class="p-4 space-y-4">
+    <div *ngFor="let blog of blogs" class="p-4 bg-white rounded shadow">
+      <h2 class="text-xl font-bold">{{ blog.title }}</h2>
+      <p>{{ blog.summary }}</p>
+      <a [routerLink]="['/blog', blog.id]" class="text-blue-600 mt-2 inline-block">Read more</a>
+    </div>
+  </div>
